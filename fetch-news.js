@@ -1,6 +1,10 @@
-const Parser = require('rss-parser');
-const fs = require('fs');
-const path = require('path');
+import Parser from 'rss-parser';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const parser = new Parser({
   customFields: {
@@ -155,8 +159,6 @@ async function fetchAllNews() {
 }
 
 // Run if called directly
-if (require.main === module) {
-  fetchAllNews().catch(console.error);
-}
+fetchAllNews().catch(console.error);
 
-module.exports = { fetchAllNews };
+export { fetchAllNews };

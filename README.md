@@ -1,6 +1,6 @@
 # Tech Plus By Ramzi
 
-A minimal news site focused on AI, developer tools, and tech industry news.
+A minimal news aggregator site focused on AI, developer tools, and tech industry news. Built with [Astro](https://astro.build/).
 
 ## Features
 
@@ -14,35 +14,44 @@ A minimal news site focused on AI, developer tools, and tech industry news.
 - 📊 Trending badges
 - 📱 PWA support (installable)
 
-## Quick Start (Local)
+## Quick Start
 
 ```bash
 # Install dependencies
 npm install
 
-# Serve locally
-npm start
+# Fetch news and build
+npm run build
+
+# Preview the build
+npm run preview
 ```
 
-Then open http://localhost:3000
-
-## Update News
-
-To pull fresh news from RSS feeds:
+## Development
 
 ```bash
+# Start dev server
+npm run dev
+
+# Fetch fresh news only
 npm run fetch
 ```
 
-Then commit and push to trigger a new deploy.
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start Astro dev server |
+| `npm run build` | Fetch news + build static site |
+| `npm run preview` | Preview production build |
+| `npm run fetch` | Fetch latest news from RSS feeds |
 
 ## RSS Sources
 
 - TechCrunch AI
 - The Verge AI
 - Ars Technica
-- Hacker News (Front, Show, Ask)
-- GitHub Blog
+- Hacker News
 - Dev.to
 - CSS-Tricks
 - Smashing Magazine
@@ -50,19 +59,27 @@ Then commit and push to trigger a new deploy.
 - MIT Tech Review
 - Wired
 - ArXiv AI
+- Medium (various tech tags)
 
 ## Project Structure
 
 ```
 tech-news-site/
+├── src/
+│   ├── pages/
+│   │   └── index.astro     # Main page
+│   ├── components/
+│   │   └── NewsCard.astro  # News card component
+│   └── layouts/
+│       └── Layout.astro    # Base layout
 ├── public/
-│   ├── index.html      # Frontend
-│   ├── styles.css      # Styling
-│   ├── news-data.json  # Cached articles
-│   ├── manifest.json   # PWA manifest
-│   └── sw.js           # Service worker
-├── fetch-news.js       # RSS fetcher
-├── vercel.json         # Vercel config
+│   ├── styles.css          # Global styles
+│   ├── manifest.json       # PWA manifest
+│   └── sw.js               # Service worker
+├── fetch-news.js           # RSS fetcher (ES module)
+├── news-data.json          # Cached articles
+├── astro.config.mjs        # Astro config
+├── vercel.json             # Vercel deployment config
 └── package.json
 ```
 
