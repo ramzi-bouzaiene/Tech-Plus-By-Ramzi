@@ -26,24 +26,6 @@ npm start
 
 Then open http://localhost:3000
 
-## Deploy to Vercel (Free)
-
-1. **Push to GitHub:**
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/tech-news-site.git
-git push -u origin main
-```
-
-2. **Deploy:**
-   - Go to [vercel.com](https://vercel.com)
-   - Import your GitHub repo
-   - Click **Deploy** (no config needed!)
-
-Your site will be live at `https://tech-news-site.vercel.app`
-
 ## Update News
 
 To pull fresh news from RSS feeds:
