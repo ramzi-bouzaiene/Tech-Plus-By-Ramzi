@@ -68,6 +68,7 @@ const mappedArticles = articles.map((a: any) => ({
         <button class="filter-btn" data-filter="AI">AI</button>
         <button class="filter-btn" data-filter="Developer Tools">Dev Tools</button>
         <button class="filter-btn" data-filter="Web Development">Web Dev</button>
+        <button class="filter-btn" data-filter="Tips and Tricks">Tips & Tricks</button>
         <button class="filter-btn" data-filter="Tech Industry">Industry</button>
         <button class="filter-btn bookmark-filter" data-filter="bookmarked">
           <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -128,12 +129,12 @@ const mappedArticles = articles.map((a: any) => ({
       const summary = card.querySelector('.summary')?.textContent?.toLowerCase() || '';
       const source = card.querySelector('.source')?.textContent?.toLowerCase() || '';
 
-      const matchesFilter = currentFilter === 'all' || 
+      const matchesFilter = currentFilter === 'all' ||
         (currentFilter === 'bookmarked' ? bookmarks.includes(link) : category === currentFilter);
-      
-      const matchesSearch = searchQuery === '' || 
-        title.includes(searchQuery) || 
-        summary.includes(searchQuery) || 
+
+      const matchesSearch = searchQuery === '' ||
+        title.includes(searchQuery) ||
+        summary.includes(searchQuery) ||
         source.includes(searchQuery);
 
       if (matchesFilter && matchesSearch) {
@@ -151,8 +152,8 @@ const mappedArticles = articles.map((a: any) => ({
     if (visibleCount === 0 && newsGrid) {
       const noResults = document.createElement('div');
       noResults.className = 'no-results';
-      noResults.textContent = currentFilter === 'bookmarked' 
-        ? 'No bookmarked articles yet' 
+      noResults.textContent = currentFilter === 'bookmarked'
+        ? 'No bookmarked articles yet'
         : 'No articles found';
       newsGrid.appendChild(noResults);
     }
@@ -197,7 +198,7 @@ const mappedArticles = articles.map((a: any) => ({
         btn.classList.add('bookmarked');
       }
       localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
-      
+
       if (currentFilter === 'bookmarked') {
         filterNews();
       }

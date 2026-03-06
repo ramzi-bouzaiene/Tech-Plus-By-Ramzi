@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-03-06T17:17:35.548Z",
+  "lastUpdated": "2026-03-06T19:57:06.396Z",
   "articles": [
     {
       "id": 1,
+      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
+      "source": "TechCrunch",
+      "category": "AI",
+      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+      "date": "2026-03-06",
+      "summary": "Trump's Department of War feud with Anthropic won't impact other companies that are using Claude via Microsoft and Google products.",
+      "readingTime": 1,
+      "trendingScore": 140
+    },
+    {
+      "id": 2,
+      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
+      "source": "TechCrunch",
+      "category": "AI",
+      "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+      "date": "2026-03-06",
+      "summary": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as \"high-severity.\"",
+      "readingTime": 1,
+      "trendingScore": 137
+    },
+    {
+      "id": 3,
+      "title": "Anthropic’s Pentagon deal is a cautionary tale for startups chasing federal contracts",
+      "source": "TechCrunch",
+      "category": "AI",
+      "url": "https://techcrunch.com/video/anthropics-pentagon-deal-is-a-cautionary-tale-for-startups-chasing-federal-contracts/",
+      "date": "2026-03-06",
+      "summary": "The Pentagon has officially designated Anthropic a supply-chain risk after the two failed to agree on how much control the military should have over its AI models, including its use in autonomous w...",
+      "readingTime": 1,
+      "trendingScore": 135
+    },
+    {
+      "id": 4,
+      "title": "Anthropic vs. the Pentagon, the SaaSpocalypse, and why competitions is good, actually",
+      "source": "TechCrunch",
+      "category": "AI",
+      "url": "https://techcrunch.com/podcast/anthropic-vs-the-pentagon-the-saaspocalypse-and-why-competitions-is-good-actually/",
+      "date": "2026-03-06",
+      "summary": "The Pentagon has officially designated Anthropic a supply-chain risk after the two failed to agree on how much control the military should have over its AI models, including its use in autonomous w...",
+      "readingTime": 1,
+      "trendingScore": 135
+    },
+    {
+      "id": 5,
+      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
+      "source": "TechCrunch",
+      "category": "AI",
+      "url": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+      "date": "2026-03-06",
+      "summary": "Claude's app is now seeing more new installs than ChatGPT and is growing its daily active users.",
+      "readingTime": 1,
+      "trendingScore": 134
+    },
+    {
+      "id": 6,
       "title": "City Detect, which uses AI to help cities stay safe and clean, raises $13M Series A",
       "source": "TechCrunch",
       "category": "AI",
@@ -10,10 +65,10 @@
       "date": "2026-03-06",
       "summary": "City Detect, a company that helps local governments prevent urban decay, is in at least 17 cities so far, including Dallas and Miami.",
       "readingTime": 1,
-      "trendingScore": 131
+      "trendingScore": 123
     },
     {
-      "id": 2,
+      "id": 7,
       "title": "After Europe, WhatsApp will let rival AI companies offer chatbots in Brazil",
       "source": "TechCrunch",
       "category": "AI",
@@ -21,10 +76,10 @@
       "date": "2026-03-06",
       "summary": "Meta is now allowing rival AI companies to provide their chatbots on WhatsApp to Brazilian users for a fee, a day after the company confirmed a similar decision for users in Europe.",
       "readingTime": 1,
-      "trendingScore": 129
+      "trendingScore": 122
     },
     {
-      "id": 3,
+      "id": 8,
       "title": "Anthropic to challenge DOD’s supply-chain label in court",
       "source": "TechCrunch",
       "category": "AI",
@@ -32,7 +87,18 @@
       "date": "2026-03-06",
       "summary": "Anthropic CEO Dario Amodei said he plans to challenge the Department of Defense's designation of the AI firm as a supply-chain risk. He claims most Anthropic customers are unaffected by the label.",
       "readingTime": 1,
-      "trendingScore": 96
+      "trendingScore": 88
+    },
+    {
+      "id": 11,
+      "title": "The AI Doc is an overwrought hype piece for doomers and accelerationists alike",
+      "source": "The Verge",
+      "category": "AI",
+      "url": "https://www.theverge.com/entertainment/890806/the-ai-doc-or-how-i-became-an-apocaloptimist-review",
+      "date": "2026-03-06",
+      "summary": "Co-director Daniel Roher. | Image: Focus Features We are in the thick of a massive push to incorporate generative AI into almost every aspect of our lives, but it is still easy to be confused about...",
+      "readingTime": 1,
+      "trendingScore": 128
     },
     {
       "id": 21,
@@ -43,7 +109,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04448v1 Announce Type: new Abstract: Current AI agents can flexibly invoke tools and execute complex tasks, yet their long-term advancement is hindered by the lack of systematic accumula...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 22,
@@ -54,7 +120,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04457v1 Announce Type: new Abstract: The fundamental topology of manufacturing has not undergone a paradigm-level transformation since Henry Ford's moving assembly line in 1913. Every ma...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 23,
@@ -65,7 +131,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04514v1 Announce Type: new Abstract: Diffusion language models generate text through iterative denoising under a uniform refinement rule applied to all tokens. However, tokens stabilize ...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 24,
@@ -76,7 +142,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04528v1 Announce Type: new Abstract: Mathematical concepts emerge through an interplay of processes, including experimentation, efforts at proof, and counterexamples. In this paper, we p...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 25,
@@ -87,7 +153,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04549v1 Announce Type: new Abstract: LLM-based agents increasingly rely on long-term memory to support multi-session reasoning and interaction, yet current systems provide little control...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 26,
@@ -98,7 +164,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04582v1 Announce Type: new Abstract: Agentic systems increasingly rely on language models to monitor their own behavior. For example, coding agents may self critique generated code for p...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 27,
@@ -109,7 +175,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04589v1 Announce Type: new Abstract: Electrocardiography (ECG) analysis is crucial for cardiac diagnosis, yet existing foundation models often fail to capture the periodicity and diverse...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 28,
@@ -120,7 +186,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04631v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into critical decision-making pipelines, a trend that raises the demand for robust and autom...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 29,
@@ -131,7 +197,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04636v1 Announce Type: new Abstract: Despite their wide-ranging benefits, LLM-based agents deployed in open environments can be exploited to produce manipulative material. In this study,...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 30,
@@ -142,219 +208,274 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04670v1 Announce Type: new Abstract: This project investigates the capabilities of large language models (LLMs) to determine the difficulty of data visualization literacy test items. We ...",
       "readingTime": 1,
-      "trendingScore": 83
+      "trendingScore": 77
     },
     {
       "id": 31,
-      "title": "The Hidden Problem With AI in Africa",
+      "title": "Fixing the Knowledge Base Is Not Just a Technology Problem",
       "source": "Medium",
-      "category": "AI",
-      "url": "https://medium.com/@verisavo/the-hidden-problem-with-ai-in-africa-e8efd7b6de69?source=rss------artificial_intelligence-5",
+      "category": "Tech Industry",
+      "url": "https://medium.com/@vlad.koval/fixing-the-knowledge-base-is-not-just-a-technology-problem-fab360b29fbb?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "How culture, local values, and fairness will shape the future of AI on the continent. Continue reading on Medium »",
+      "summary": "At some point, every organization that struggles with knowledge management reaches the same conclusion. Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 32,
-      "title": "Agentic AI: Hype, Reality, and the Real Boundary with Automation",
+      "title": "Claude Code Shipped a Pull Request in Under 15 Minutes.",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@rajjn1996/agentic-ai-hype-reality-and-the-real-boundary-with-automation-16e0b3b39453?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@mark_13153/claude-code-shipped-a-pull-request-in-under-15-minutes-09d4e4217d70?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "In the last few years, the term Agentic AI has become very popular. Many tech companies, startups, and conferences talk about AI agents… Continue reading on Medium »",
+      "summary": "The verdict arrived before the benchmarks did Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 33,
-      "title": "The Current State of WebPass",
+      "title": "The difference between production software and vibe-coded slop isn’t the AI model",
       "source": "Medium",
-      "category": "Web Development",
-      "url": "https://medium.com/@satorun_1754/the-current-state-of-webpass-769e6178b3e8?source=rss------artificial_intelligence-5",
+      "category": "AI",
+      "url": "https://medium.com/@appifex.ai/the-difference-between-production-software-and-vibe-coded-slop-isnt-the-ai-model-29cc1260487d?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "A Quiet Shift in Infrastructure Continue reading on Medium »",
+      "summary": "Spend ten minutes on r/vibecoding and you’ll see the same story on repeat. Someone ships a full stack app in a weekend, posts the demo… Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 34,
-      "title": "Smart Websites: How AI Is Transforming Digital Marketing.",
+      "title": "From Automation to Autonomous Finance: How AI Is Transforming the Future of Banking",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@fahizmuhammeduk/smart-websites-how-ai-is-transforming-digital-marketing-56e4a60afb4b?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@reachkomati/from-automation-to-autonomous-finance-how-ai-is-transforming-the-future-of-banking-a7befae5471f?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Is this the end of human creativity? Continue reading on Medium »",
+      "summary": "How fraud detection, intelligent lending, and agentic AI are reshaping financial services Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 35,
-      "title": "How to Design PCBs for AI Accelerator Chips — NPU, TPU, and GPU Board Considerations",
+      "title": "When AI Refuses to Fight: The Silicon Valley vs.",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@aa.suryanegara2/how-to-design-pcbs-for-ai-accelerator-chips-npu-tpu-and-gpu-board-considerations-8976d3ecb6c9?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@pixipace/when-ai-refuses-to-fight-the-silicon-valley-vs-f654f4f1f5f8?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "The rise of artificial intelligence hardware has introduced a new generation of engineering challenges. Designing a printed circuit board… Continue reading on Medium »",
+      "summary": "The most important battle in artificial intelligence isn’t happening in a research lab. It’s happening in the halls of the Pentagon — and… Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 36,
-      "title": "The Infrastructure Problem Nobody Talks About: Blockchains Weren’t Built for AI Agents",
+      "title": "Claude Cowork vs. Claude Chat: When to Use Which and Why Most People Get It Wrong",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@kjarateam_60740/the-infrastructure-problem-nobody-talks-about-blockchains-werent-built-for-ai-agents-932e0abab647?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/illumination/claude-cowork-vs-claude-chat-when-to-use-which-and-why-most-people-get-it-wrong-e09201a9de3f?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Unified Token, native AAA, Session Keys, Proof-of-Contribution — how Incentiv is building a blockchain where autonomous agents are treated… Continue reading on Medium »",
+      "summary": "A 5-minute guide to reclaiming 10 hours a week Continue reading on ILLUMINATION »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 37,
-      "title": "How to Use MCP to Build A Personal Financial Assistant",
+      "title": "The H2E Concierge: Bridging the Biological Gap to Sustainable AGI",
       "source": "Medium",
       "category": "AI",
-      "url": "https://ai.gopubby.com/how-to-use-mcp-to-build-a-personal-financial-assistant-c073885df773?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@frankmorales_91352/the-h2e-concierge-bridging-the-biological-gap-to-sustainable-agi-607a0c421f39?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "A Python guide to using MCPs Continue reading on AI Advances »",
+      "summary": "Frank Morales Aguilera, BEng, MEng, SMIEEE Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 38,
-      "title": "5 Online Skills That Can Change Your Financial Future",
+      "title": "The Evolution of Generative Modelling: A Deep Dive into JAX-Powered Transformers with TPU",
       "source": "Medium",
-      "category": "Tech Industry",
-      "url": "https://medium.com/@hakeemllc1/5-online-skills-that-can-change-your-financial-future-105b20887ebe?source=rss------artificial_intelligence-5",
+      "category": "AI",
+      "url": "https://medium.com/@frankmorales_91352/the-evolution-of-generative-modelling-a-deep-dive-into-jax-powered-transformers-with-tpu-a6ec4a2453fa?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Continue reading on Medium »",
+      "summary": "Frank Morales Aguilera, BEng, MEng, SMIEEE Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 39,
-      "title": "The Tech Stack of 2026: How AI, Data Science, and Programming Are Rewriting the Rules",
+      "title": "The Friday Handoff: You Rest, AI Executes",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@rekhadcm/the-tech-stack-of-2026-how-ai-data-science-and-programming-are-rewriting-the-rules-115060e6dab3?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@neonaliensai/the-friday-handoff-you-rest-ai-executes-d84252ede433?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "A zero-experience coder built a full app in one afternoon. Here’s what that says about tech in 2026. Continue reading on Medium »",
+      "summary": "Friday at 4:47 PM. Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 40,
-      "title": "The Algorithmic Architecture of Epistemic Closure and the Semiotics of the Placeholder",
+      "title": "Philosophy and Knowledge:",
       "source": "Medium",
-      "category": "Tech Industry",
-      "url": "https://medium.com/@devdollzai/the-algorithmic-architecture-of-epistemic-closure-and-the-semiotics-of-the-placeholder-f715a0a158e8?source=rss------artificial_intelligence-5",
+      "category": "Tips and Tricks",
+      "url": "https://betemonteiro.medium.com/philosophy-and-knowledge-5f5abb0a4df0?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Author: Nicholas Michael Grossi Continue reading on Medium »",
+      "summary": "How to Avoid Falling for Fake News Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 41,
-      "title": "Machine Learning in Fraud & AML Detection: Transforming Risk Management",
+      "title": "From Automation to Autonomous Finance: How AI Is Transforming the Future of Banking",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@farhat_84093/machine-learning-in-fraud-aml-detection-transforming-risk-management-92d92235afa1?source=rss------machine_learning-5",
+      "url": "https://medium.com/@reachkomati/from-automation-to-autonomous-finance-how-ai-is-transforming-the-future-of-banking-a7befae5471f?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "This article highlights how machine learning is transforming fraud and AML detection. As financial threats grow more complex, ML provides… Continue reading on Medium »",
+      "summary": "How fraud detection, intelligent lending, and agentic AI are reshaping financial services Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 119
     },
     {
       "id": 42,
-      "title": "The Tech Stack of 2026: How AI, Data Science, and Programming Are Rewriting the Rules",
+      "title": "A Complete Guide to Machine Learning Algorithms: Regression, Classification, and Ensemble Methods",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@rekhadcm/the-tech-stack-of-2026-how-ai-data-science-and-programming-are-rewriting-the-rules-115060e6dab3?source=rss------machine_learning-5",
+      "url": "https://medium.com/@vsreeragh610/a-complete-guide-to-machine-learning-algorithms-regression-classification-and-ensemble-methods-489597dbb2e9?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "A zero-experience coder built a full app in one afternoon. Here’s what that says about tech in 2026. Continue reading on Medium »",
+      "summary": "Machine learning algorithms form the backbone of modern data-driven systems, enabling computers to learn patterns from data and make… Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 43,
-      "title": "“It Depends”: The Art and Science of Choosing the Right AI Model",
+      "title": "From Lottery Tickets to Dynamic Sparse Networks: The Evolution of Efficient Deep Learning",
       "source": "Medium",
       "category": "AI",
-      "url": "https://fatima-zaka.medium.com/it-depends-the-art-and-science-of-choosing-the-right-ai-model-72135638753a?source=rss------machine_learning-5",
+      "url": "https://medium.com/@kartik3pandey/from-lottery-tickets-to-dynamic-sparse-networks-the-evolution-of-efficient-deep-learning-fb0d33bfc03c?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Moving beyond the “Which algorithm is best?” interview trap. Continue reading on Medium »",
+      "summary": "Understanding how sparse neural networks evolved from pruning techniques to dynamic topology learning. Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 44,
-      "title": "Types of Linear Regression",
+      "title": "How The Mind Operates",
       "source": "Medium",
-      "category": "AI",
-      "url": "https://medium.com/@Zero_to_ML/types-of-linear-regression-4cfa23717b73?source=rss------machine_learning-5",
+      "category": "Tech Industry",
+      "url": "https://medium.com/@TheTechCrusader/how-the-mind-operates-a9a5ccad4950?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Simple Linear Regression is used when we want to predict target value using only one input feature. It assumes a straignt line Continue reading on Medium »",
+      "summary": "A Philosophical Account of the Mind’s Operations Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 45,
-      "title": "A Periodic table for AI",
+      "title": "Advanced Computing Technologies for Drone Monitoring Systems",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@quantum_tunnel/a-periodic-table-for-ai-6c1ebc21c33a?source=rss------machine_learning-5",
+      "url": "https://medium.com/@mirmuhammad7/advanced-computing-technologies-for-drone-monitoring-systems-6b3b1ec3ca9d?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "A Unified Theory of Multimodal Learning Continue reading on Medium »",
+      "summary": "Integration of AI, Machine Learning, GPS, and Blockchain Technologies Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 46,
-      "title": "Beyond the Bar Chart: How We Finally Found the “Dials” Inside AI’s Brain",
+      "title": "Random Forest Algorithm Explained: How It Works, Real-World Applications, and Python Implementation",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@arundhathin2706/beyond-the-bar-chart-how-we-finally-found-the-dials-inside-ais-brain-418c27211879?source=rss------machine_learning-5",
+      "url": "https://medium.com/@brentwash35/random-forest-algorithm-explained-how-it-works-real-world-applications-and-python-implementation-5d63ddcf0e22?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "We have a trust problem. Continue reading on Medium »",
+      "summary": "Introduction: The Forest and the Trees Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 118
     },
     {
       "id": 47,
-      "title": "Prompt Engineering Explained: 7 Techniques That Instantly Improve AI Responses",
+      "title": "Measurement Problems, Product Rating and A/B Testing",
       "source": "Medium",
-      "category": "AI",
-      "url": "https://medium.com/@grk.fullstack/prompt-engineering-explained-7-techniques-that-instantly-improve-ai-responses-09fc1a7642fb?source=rss------machine_learning-5",
+      "category": "Tech Industry",
+      "url": "https://medium.com/@egedenizgoktas70/measurement-problems-product-rating-and-a-b-testing-5dc52b0e1308?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Artificial Intelligence is powerful — but the quality of its output depends entirely on how you communicate with it. Continue reading on Medium »",
+      "summary": "Understanding how modern platforms measure product quality using ratings, review ranking algorithms, and statistical experimentation. Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 118
     },
     {
       "id": 48,
-      "title": "Offline RL: 7 Dataset Biases That Bend Policy",
+      "title": "Context Pollution: Do LLMs Benefit From Their Own Words?",
       "source": "Medium",
-      "category": "Tech Industry",
-      "url": "https://medium.com/@Quaxel/offline-rl-7-dataset-biases-that-bend-policy-f655e66a6866?source=rss------machine_learning-5",
+      "category": "AI",
+      "url": "https://pub.towardsai.net/context-pollution-do-llms-benefit-from-their-own-words-e21984ea53c5?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "How hidden bias in offline RL datasets quietly distorts value estimates, policy learning, and real-world behavior Continue reading on Medium »",
+      "summary": "New MIT and IBM research shows context pollution — not intelligence — is quietly breaking your multi-turn AI conversations Continue reading on Towards AI »",
       "readingTime": 1,
       "trendingScore": 118
     },
     {
       "id": 49,
-      "title": "I Saw Reward Hacking Hide in “Helpful” Safety Prompts",
+      "title": "Mathematical Foundations: My Journey towards ML Fundamentals Day 05",
       "source": "Medium",
-      "category": "AI",
-      "url": "https://medium.com/@1nick1patel1/i-saw-reward-hacking-hide-in-helpful-safety-prompts-90292d554f7c?source=rss------machine_learning-5",
+      "category": "Tips and Tricks",
+      "url": "https://medium.com/@talhakhattak2006/mathematical-foundations-my-journey-towards-ml-fundamentals-day-05-4dd8f2b7d8c7?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Why polite refusals, empathetic wording, and “safe” formatting can quietly train models to optimize appearances instead of intent Continue reading on Medium »",
+      "summary": "Today was day 5 of my learning journey where I managed to gear up my foundations to some extent of derivatives by managing to learn about… Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 118
+      "trendingScore": 117
     },
     {
       "id": 50,
+      "title": "Everything a Beginner Needs to Know About Computer Vision (Without the Confusion)",
+      "source": "Medium",
+      "category": "Tips and Tricks",
+      "url": "https://medium.com/@blessingobasiuzoma/everything-a-beginner-needs-to-know-about-computer-vision-without-the-confusion-888c309b93ee?source=rss------machine_learning-5",
+      "date": "2026-03-06",
+      "summary": "The first time I heard “computer vision,” I imagined something magical: a computer looking at an image and instantly understanding it the… Continue reading on Medium »",
+      "readingTime": 1,
+      "trendingScore": 117
+    },
+    {
+      "id": 51,
+      "title": "New imagery suggests U.S. responsible for Iran school strike",
+      "source": "Hacker News",
+      "category": "Developer Tools",
+      "url": "https://www.cnn.com/2026/03/06/world/video/updates-suggests-us-responsible-iran-school-strike-digvid",
+      "date": "2026-03-06",
+      "summary": "Article URL: https://www.cnn.com/2026/03/06/world/video/updates-suggests-us-responsible-iran-school-strike-digvid Comments URL: https://news.ycombinator.com/item?id=47279251 Points: 42 # Comments: 10",
+      "readingTime": 1,
+      "trendingScore": 146
+    },
+    {
+      "id": 52,
+      "title": "Launch HN: Palus Finance (YC W26): Better yields on idle cash for startups, SMBs",
+      "source": "Hacker News",
+      "category": "AI",
+      "url": "https://news.ycombinator.com/item?id=47278980",
+      "date": "2026-03-06",
+      "summary": "Hi HN! We’re Sam and Michael from Palus Finance (https://palus.finance). We’re building a treasury management platform for startups and SMBs to earn higher yields with a high-yield bond portfolio. ...",
+      "readingTime": 1,
+      "trendingScore": 145
+    },
+    {
+      "id": 53,
+      "title": "Tech employment now significantly worse than the 2008 or 2020 recessions",
+      "source": "Hacker News",
+      "category": "Tech Industry",
+      "url": "https://twitter.com/JosephPolitano/status/2029916364664611242",
+      "date": "2026-03-06",
+      "summary": "Article URL: https://twitter.com/JosephPolitano/status/2029916364664611242 Comments URL: https://news.ycombinator.com/item?id=47278426 Points: 248 # Comments: 158",
+      "readingTime": 1,
+      "trendingScore": 144
+    },
+    {
+      "id": 54,
+      "title": "Strikes in Middle East since 28th Feb in real time",
+      "source": "Hacker News",
+      "category": "Tech Industry",
+      "url": "https://iranstrike.com",
+      "date": "2026-03-06",
+      "summary": "Article URL: https://iranstrike.com Comments URL: https://news.ycombinator.com/item?id=47277949 Points: 29 # Comments: 30",
+      "readingTime": 1,
+      "trendingScore": 142
+    },
+    {
+      "id": 55,
       "title": "Multifactor (YC F25) Is Hiring an Engineering Lead",
       "source": "Hacker News",
       "category": "Tech Industry",
@@ -362,194 +483,73 @@
       "date": "2026-03-06",
       "summary": "Article URL: https://www.ycombinator.com/companies/multifactor/jobs/lcpd60A-engineering-lead Comments URL: https://news.ycombinator.com/item?id=47277679 Points: 0 # Comments: 0",
       "readingTime": 1,
-      "trendingScore": 149
-    },
-    {
-      "id": 51,
-      "title": "CBP says it can't comply with refund order",
-      "source": "Hacker News",
-      "category": "Web Development",
-      "url": "https://www.cnbc.com/2026/03/06/trump-trade-tariffs-refunds-customs-border-protection.html",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://www.cnbc.com/2026/03/06/trump-trade-tariffs-refunds-customs-border-protection.html Comments URL: https://news.ycombinator.com/item?id=47276952 Points: 30 # Comments: 15",
-      "readingTime": 1,
-      "trendingScore": 147
-    },
-    {
-      "id": 52,
-      "title": "Astra: An open-source observatory control software",
-      "source": "Hacker News",
-      "category": "Developer Tools",
-      "url": "https://github.com/ppp-one/astra",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://github.com/ppp-one/astra Comments URL: https://news.ycombinator.com/item?id=47276865 Points: 4 # Comments: 0",
-      "readingTime": 1,
-      "trendingScore": 147
-    },
-    {
-      "id": 53,
-      "title": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
-      "source": "Hacker News",
-      "category": "AI",
-      "url": "https://github.com/moongate-community/moongatev2",
-      "date": "2026-03-06",
-      "summary": "I've been building a modern Ultima Online server emulator from scratch. It's not feature-complete (no combat, no skills yet), but the foundation is solid and I wanted to share it early. What it doe...",
-      "readingTime": 1,
-      "trendingScore": 141
-    },
-    {
-      "id": 54,
-      "title": "Good Bad ISPs",
-      "source": "Hacker News",
-      "category": "Tech Industry",
-      "url": "https://community.torproject.org/relay/community-resources/good-bad-isps/",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://community.torproject.org/relay/community-resources/good-bad-isps/ Comments URL: https://news.ycombinator.com/item?id=47275230 Points: 17 # Comments: 1",
-      "readingTime": 1,
-      "trendingScore": 141
-    },
-    {
-      "id": 55,
-      "title": "CT Scans of Health Wearables",
-      "source": "Hacker News",
-      "category": "Tech Industry",
-      "url": "https://www.lumafield.com/scan-of-the-month/health-wearables",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://www.lumafield.com/scan-of-the-month/health-wearables Comments URL: https://news.ycombinator.com/item?id=47275152 Points: 64 # Comments: 9",
-      "readingTime": 1,
       "trendingScore": 141
     },
     {
       "id": 56,
-      "title": "Show HN: Interactive 3D globe of EU shipping emissions",
+      "title": "Supertoast tables",
       "source": "Hacker News",
       "category": "Tech Industry",
-      "url": "https://seafloor.pages.dev",
+      "url": "https://hatchet.run/blog/supertoast-tables",
       "date": "2026-03-06",
-      "summary": "Article URL: https://seafloor.pages.dev Comments URL: https://news.ycombinator.com/item?id=47275121 Points: 9 # Comments: 5",
+      "summary": "Article URL: https://hatchet.run/blog/supertoast-tables Comments URL: https://news.ycombinator.com/item?id=47277420 Points: 37 # Comments: 4",
       "readingTime": 1,
       "trendingScore": 141
     },
     {
       "id": 57,
-      "title": "Global warming has accelerated significantly",
+      "title": "Astra: An open-source observatory control software",
       "source": "Hacker News",
-      "category": "Tech Industry",
-      "url": "https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly",
+      "category": "Developer Tools",
+      "url": "https://github.com/ppp-one/astra",
       "date": "2026-03-06",
-      "summary": "Article URL: https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly Comments URL: https://news.ycombinator.com/item?id=47275088 Points: 540 # Comments: 461",
-      "readingTime": 1,
-      "trendingScore": 141
-    },
-    {
-      "id": 58,
-      "title": "US economy unexpectedly sheds 92,000 jobs in February",
-      "source": "Hacker News",
-      "category": "Tech Industry",
-      "url": "https://www.bbc.com/news/articles/cjd98091g28o",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://www.bbc.com/news/articles/cjd98091g28o Comments URL: https://news.ycombinator.com/item?id=47275035 Points: 359 # Comments: 403",
-      "readingTime": 1,
-      "trendingScore": 140
-    },
-    {
-      "id": 59,
-      "title": "Workers who love 'synergizing paradigms' might be bad at their jobs",
-      "source": "Hacker News",
-      "category": "Tech Industry",
-      "url": "https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs Comments URL: https://news.ycombinator.com/item?id=47274676 Points: 292 # Commen...",
+      "summary": "Article URL: https://github.com/ppp-one/astra Comments URL: https://news.ycombinator.com/item?id=47276865 Points: 53 # Comments: 15",
       "readingTime": 1,
       "trendingScore": 139
     },
     {
-      "id": 60,
-      "title": "Zero Trust for AI Agents? Google Workspace CLI's Design Philosophy",
-      "source": "Dev.to",
+      "id": 58,
+      "title": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "source": "Hacker News",
       "category": "AI",
-      "url": "https://dev.to/akari_iku/zero-trust-for-ai-agents-google-workspace-clis-design-philosophy-46k1",
+      "url": "https://github.com/es617/claude-replay",
       "date": "2026-03-06",
-      "summary": "Greetings from Japan. Every now and then, you stumble upon a technical blog post that disguises itself as a how-I-built-my-CLI walkthrough, only to quietly unfold into something far more interestin...",
+      "summary": "I got tired of sharing AI demos with terminal screenshots or screen recordings. Claude Code already stores full session transcripts locally as JSONL files. Those logs contain everything: prompts, t...",
       "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 138
+    },
+    {
+      "id": 59,
+      "title": "Entomologists use a particle accelerator to image ants at scale",
+      "source": "Hacker News",
+      "category": "Tech Industry",
+      "url": "https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan",
+      "date": "2026-03-06",
+      "summary": "Article URL: https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan Comments URL: https://news.ycombinator.com/item?id=47276539 Points: 55 # Comments: 5",
+      "readingTime": 1,
+      "trendingScore": 138
+    },
+    {
+      "id": 60,
+      "title": "Paul Brainerd, founder of Aldus PageMaker, has died",
+      "source": "Hacker News",
+      "category": "AI",
+      "url": "https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/",
+      "date": "2026-03-06",
+      "summary": "Article URL: https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/ Comments URL: https://news.ycombinator.com/item?id=47276220 Points: 91 # Comments: 17",
+      "readingTime": 1,
+      "trendingScore": 137
     },
     {
       "id": 61,
-      "title": "I Built a Chrome Extension That Finally Makes Bookmarks Searchable — Here's How",
+      "title": "Marcus Aurelius Was the First SRE (And His Meditations Is the Best Production Run book Ever Written)",
       "source": "Dev.to",
-      "category": "AI",
-      "url": "https://dev.to/jagadeeshjayachandran/i-built-a-chrome-extension-that-finally-makes-bookmarks-searchable-heres-how-4a4d",
+      "category": "Developer Tools",
+      "url": "https://dev.to/quantummanuals/marcus-aurelius-was-the-first-sre-and-his-meditations-is-the-best-production-run-book-ever-written-1ilp",
       "date": "2026-03-06",
-      "summary": "The Problem Nobody Talks About You know that feeling. You saved a link weeks ago — a brilliant tutorial, a useful tool, a must-read article. Now you need it. You type something vague into your book...",
+      "summary": "Hear me out. Reading his Meditations recently, I kept noticing the same structure repeating Every core Stoic principle maps directly to modern production engineering: Premeditatio malorum → Chaos e...",
       "readingTime": 1,
-      "trendingScore": 119
-    },
-    {
-      "id": 62,
-      "title": "Why We Don't Use Socket Connections for Everything",
-      "source": "Dev.to",
-      "category": "AI",
-      "url": "https://dev.to/rajat10/why-we-dont-use-socket-connections-for-everything-3j6g",
-      "date": "2026-03-06",
-      "summary": "Sockets (such as TCP sockets or WebSockets) enable persistent, two-way communication between a client and a server. Because of this, they are extremely useful for real-time applications like chat s...",
-      "readingTime": 1,
-      "trendingScore": 119
-    },
-    {
-      "id": 63,
-      "title": "Why is moving money from card to bank account so difficult? Building VZr0 to explore a simpler flow",
-      "source": "Dev.to",
-      "category": "AI",
-      "url": "https://dev.to/vzr0/why-is-moving-money-from-card-to-bank-account-so-difficult-building-vzr0-to-explore-a-simpler-flow-33m8",
-      "date": "2026-03-06",
-      "summary": "Over the past few years, I kept running into the same problem. Moving money from a card to a bank account is surprisingly difficult in most apps. Some platforms only allow transfers between users. ...",
-      "readingTime": 1,
-      "trendingScore": 119
-    },
-    {
-      "id": 64,
-      "title": "The Combinatorial Explosion Problem: Why Adding One Modifier Can Collapse Your Output Space",
-      "source": "Dev.to",
-      "category": "AI",
-      "url": "https://dev.to/velocityai/the-combinatorial-explosion-problem-why-adding-one-modifier-can-collapse-your-output-space-3e2h",
-      "date": "2026-03-06",
-      "summary": "You add a single word to a reliable prompt. Just one. \"A red cat\" becomes \"A red cat with blue eyes.\" What you expected was the same red cat, now with blue eyes. What you got was a purple cat with ...",
-      "readingTime": 1,
-      "trendingScore": 119
-    },
-    {
-      "id": 65,
-      "title": "One simple action will put you in the top 50% of respondents...",
-      "source": "Dev.to",
-      "category": "AI",
-      "url": "https://dev.to/canro91/one-simple-action-will-put-you-in-the-top-50-of-respondents-9a8",
-      "date": "2026-03-06",
-      "summary": "The Numbers That Deflate the AI Hype About Replacing Coders—and Ease FOMO Cesar Aguirre ・ Mar 2 #coding #beginners #programming #ai",
-      "readingTime": 1,
-      "trendingScore": 119
-    },
-    {
-      "id": 66,
-      "title": "Free API: Look Up Any US Tariff Rate in Seconds",
-      "source": "Dev.to",
-      "category": "AI",
-      "url": "https://dev.to/archiekane/free-api-look-up-any-us-tariff-rate-in-seconds-4724",
-      "date": "2026-03-06",
-      "summary": "Tariff data is a surprisingly painful problem for developers. The official source — the USITC Harmonized Tariff Schedule — is a 3,500-page PDF. The API alternatives are either expensive, incomplete...",
-      "readingTime": 1,
-      "trendingScore": 119
-    },
-    {
-      "id": 67,
-      "title": "How I optimized my SvelteKit website from 70 to 95+ on mobile Lighthouse tests",
-      "source": "Dev.to",
-      "category": "AI",
-      "url": "https://dev.to/metehandesign/how-i-optimized-my-sveltekit-website-from-70-to-95-on-mobile-lighthouse-tests-1ba3",
-      "date": "2026-03-06",
-      "summary": "When I initially built this portfolio/blog website, my priority was getting it live quickly, so I didn't pay much attention to performance. The stack I used — SvelteKit and TailwindCSS — handled a ...",
-      "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     }
   ]
 }

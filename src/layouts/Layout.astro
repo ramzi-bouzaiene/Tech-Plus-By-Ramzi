@@ -51,6 +51,7 @@ const { title } = Astro.props;
   --devtools: #059669;
   --webdev: #f59e0b;
   --industry: #dc2626;
+  --tips: #0891b2;
   --shadow: rgba(0,0,0,0.08);
   --trending: #ff6b35;
 }
@@ -78,6 +79,10 @@ const { title } = Astro.props;
 
 [data-theme="dark"] .category.tech-industry {
   background: #450a0a;
+}
+
+[data-theme="dark"] .category.tips-and-tricks {
+  background: #164e63;
 }
 
 body {
@@ -273,6 +278,11 @@ header h1 {
 .category.web-development {
   background: #fef3c7;
   color: var(--webdev);
+}
+
+.category.tips-and-tricks {
+  background: #cffafe;
+  color: var(--tips);
 }
 
 /* Card header with badges and bookmark */

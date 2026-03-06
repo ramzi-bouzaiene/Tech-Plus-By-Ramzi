@@ -37,8 +37,38 @@ const FEEDS = [
   { url: 'https://web.dev/feed.xml', source: 'web.dev', defaultCategory: 'Web Development' },
   { url: 'https://dev.to/feed/tag/webdev', source: 'Dev.to', defaultCategory: 'Web Development' },
   { url: 'https://dev.to/feed/tag/javascript', source: 'Dev.to', defaultCategory: 'Web Development' },
+  { url: 'https://dev.to/feed/tag/react', source: 'Dev.to', defaultCategory: 'Web Development' },
+  { url: 'https://dev.to/feed/tag/typescript', source: 'Dev.to', defaultCategory: 'Web Development' },
+  { url: 'https://dev.to/feed/tag/css', source: 'Dev.to', defaultCategory: 'Web Development' },
+  { url: 'https://dev.to/feed/tag/html', source: 'Dev.to', defaultCategory: 'Web Development' },
+  { url: 'https://dev.to/feed/tag/nextjs', source: 'Dev.to', defaultCategory: 'Web Development' },
   { url: 'https://medium.com/feed/tag/javascript', source: 'Medium', defaultCategory: 'Web Development' },
   { url: 'https://medium.com/feed/tag/web-development', source: 'Medium', defaultCategory: 'Web Development' },
+  { url: 'https://medium.com/feed/tag/react', source: 'Medium', defaultCategory: 'Web Development' },
+  { url: 'https://medium.com/feed/tag/frontend', source: 'Medium', defaultCategory: 'Web Development' },
+  { url: 'https://medium.com/feed/tag/css', source: 'Medium', defaultCategory: 'Web Development' },
+  { url: 'https://www.freecodecamp.org/news/rss/', source: 'freeCodeCamp', defaultCategory: 'Web Development' },
+  { url: 'https://daily.dev/blog/rss.xml', source: 'daily.dev', defaultCategory: 'Web Development' },
+  { url: 'https://blog.logrocket.com/feed/', source: 'LogRocket', defaultCategory: 'Web Development' },
+  { url: 'https://www.sitepoint.com/feed/', source: 'SitePoint', defaultCategory: 'Web Development' },
+  { url: 'https://www.joshwcomeau.com/rss.xml', source: 'Josh W Comeau', defaultCategory: 'Web Development' },
+  { url: 'https://kentcdodds.com/blog/rss.xml', source: 'Kent C. Dodds', defaultCategory: 'Web Development' },
+  { url: 'https://www.robinwieruch.de/index.xml', source: 'Robin Wieruch', defaultCategory: 'Web Development' },
+
+  // Tips and Tricks
+  { url: 'https://dev.to/feed/tag/tips', source: 'Dev.to', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://dev.to/feed/tag/productivity', source: 'Dev.to', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://dev.to/feed/tag/tutorial', source: 'Dev.to', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://dev.to/feed/tag/beginners', source: 'Dev.to', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://dev.to/feed/tag/codenewbie', source: 'Dev.to', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://medium.com/feed/tag/tips', source: 'Medium', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://medium.com/feed/tag/coding-tips', source: 'Medium', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://medium.com/feed/tag/productivity', source: 'Medium', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://medium.com/feed/tag/tutorial', source: 'Medium', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://www.freecodecamp.org/news/tag/tips/rss/', source: 'freeCodeCamp', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://blog.codepen.io/feed/', source: 'CodePen', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://davidwalsh.name/feed', source: 'David Walsh', defaultCategory: 'Tips and Tricks' },
+  { url: 'https://www.30secondsofcode.org/feed.xml', source: '30 Seconds of Code', defaultCategory: 'Tips and Tricks' },
 
   // Tech Industry
   { url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', source: 'Ars Technica', defaultCategory: 'Tech Industry' },
@@ -52,7 +82,8 @@ const FEEDS = [
 const CATEGORY_KEYWORDS = {
   'AI': ['ai', 'artificial intelligence', 'machine learning', 'llm', 'gpt', 'claude', 'gemini', 'openai', 'anthropic', 'chatbot', 'neural', 'deep learning', 'transformer', 'diffusion', 'stable diffusion', 'midjourney'],
   'Developer Tools': ['developer', 'code', 'programming', 'github', 'git', 'ide', 'vscode', 'cursor', 'api', 'sdk', 'framework', 'library', 'open source', 'devops', 'ci/cd', 'docker', 'kubernetes'],
-  'Web Development': ['javascript', 'typescript', 'react', 'vue', 'angular', 'svelte', 'nextjs', 'css', 'html', 'frontend', 'backend', 'fullstack', 'node', 'deno', 'web', 'browser', 'dom', 'tailwind', 'webpack', 'vite'],
+  'Web Development': ['javascript', 'typescript', 'react', 'vue', 'angular', 'svelte', 'nextjs', 'css', 'html', 'frontend', 'backend', 'fullstack', 'node', 'deno', 'web', 'browser', 'dom', 'tailwind', 'webpack', 'vite', 'sass', 'scss', 'responsive', 'animation', 'flexbox', 'grid', 'astro', 'remix', 'nuxt', 'gatsby', 'vercel', 'netlify'],
+  'Tips and Tricks': ['tip', 'tips', 'trick', 'tricks', 'shortcut', 'hack', 'hacks', 'productivity', 'efficient', 'quick', 'cheatsheet', 'cheat sheet', 'best practice', 'gotcha', 'pro tip', 'tutorial', 'how to', 'guide', 'learn', 'beginner', 'snippet', 'useful', 'hidden feature', 'must know', 'essential'],
   'Tech Industry': ['startup', 'funding', 'acquisition', 'layoff', 'ceo', 'valuation', 'ipo', 'regulation', 'antitrust', 'privacy', 'big tech', 'meta', 'google', 'apple', 'microsoft', 'amazon']
 };
 
