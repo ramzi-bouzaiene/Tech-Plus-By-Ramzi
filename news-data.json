@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T19:57:06.396Z",
+  "lastUpdated": "2026-03-06T21:02:43.711Z",
   "articles": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
       "date": "2026-03-06",
       "summary": "Trump's Department of War feud with Anthropic won't impact other companies that are using Claude via Microsoft and Google products.",
       "readingTime": 1,
-      "trendingScore": 140
+      "trendingScore": 137
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "date": "2026-03-06",
       "summary": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as \"high-severity.\"",
       "readingTime": 1,
-      "trendingScore": 137
+      "trendingScore": 134
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
       "date": "2026-03-06",
       "summary": "The Pentagon has officially designated Anthropic a supply-chain risk after the two failed to agree on how much control the military should have over its AI models, including its use in autonomous w...",
       "readingTime": 1,
-      "trendingScore": 135
+      "trendingScore": 132
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "date": "2026-03-06",
       "summary": "The Pentagon has officially designated Anthropic a supply-chain risk after the two failed to agree on how much control the military should have over its AI models, including its use in autonomous w...",
       "readingTime": 1,
-      "trendingScore": 135
+      "trendingScore": 132
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
       "date": "2026-03-06",
       "summary": "Claude's app is now seeing more new installs than ChatGPT and is growing its daily active users.",
       "readingTime": 1,
-      "trendingScore": 134
+      "trendingScore": 131
     },
     {
       "id": 6,
@@ -65,7 +65,7 @@
       "date": "2026-03-06",
       "summary": "City Detect, a company that helps local governments prevent urban decay, is in at least 17 cities so far, including Dallas and Miami.",
       "readingTime": 1,
-      "trendingScore": 123
+      "trendingScore": 120
     },
     {
       "id": 7,
@@ -76,7 +76,7 @@
       "date": "2026-03-06",
       "summary": "Meta is now allowing rival AI companies to provide their chatbots on WhatsApp to Brazilian users for a fee, a day after the company confirmed a similar decision for users in Europe.",
       "readingTime": 1,
-      "trendingScore": 122
+      "trendingScore": 118
     },
     {
       "id": 8,
@@ -87,10 +87,21 @@
       "date": "2026-03-06",
       "summary": "Anthropic CEO Dario Amodei said he plans to challenge the Department of Defense's designation of the AI firm as a supply-chain risk. He claims most Anthropic customers are unaffected by the label.",
       "readingTime": 1,
-      "trendingScore": 88
+      "trendingScore": 85
     },
     {
       "id": 11,
+      "title": "Grammarly is using our identities without permission",
+      "source": "The Verge",
+      "category": "AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews",
+      "date": "2026-03-06",
+      "summary": "Grammarly's \"expert review\" feature offers to give users writing advice \"inspired by\" subject matter experts, including recently-deceased professors, as Wired reported on Wednesday. When I tried th...",
+      "readingTime": 1,
+      "trendingScore": 130
+    },
+    {
+      "id": 12,
       "title": "The AI Doc is an overwrought hype piece for doomers and accelerationists alike",
       "source": "The Verge",
       "category": "AI",
@@ -98,7 +109,7 @@
       "date": "2026-03-06",
       "summary": "Co-director Daniel Roher. | Image: Focus Features We are in the thick of a massive push to incorporate generative AI into almost every aspect of our lives, but it is still easy to be confused about...",
       "readingTime": 1,
-      "trendingScore": 128
+      "trendingScore": 125
     },
     {
       "id": 21,
@@ -109,7 +120,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04448v1 Announce Type: new Abstract: Current AI agents can flexibly invoke tools and execute complex tasks, yet their long-term advancement is hindered by the lack of systematic accumula...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 22,
@@ -120,7 +131,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04457v1 Announce Type: new Abstract: The fundamental topology of manufacturing has not undergone a paradigm-level transformation since Henry Ford's moving assembly line in 1913. Every ma...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 23,
@@ -131,7 +142,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04514v1 Announce Type: new Abstract: Diffusion language models generate text through iterative denoising under a uniform refinement rule applied to all tokens. However, tokens stabilize ...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 24,
@@ -142,7 +153,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04528v1 Announce Type: new Abstract: Mathematical concepts emerge through an interplay of processes, including experimentation, efforts at proof, and counterexamples. In this paper, we p...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 25,
@@ -153,7 +164,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04549v1 Announce Type: new Abstract: LLM-based agents increasingly rely on long-term memory to support multi-session reasoning and interaction, yet current systems provide little control...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 26,
@@ -164,7 +175,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04582v1 Announce Type: new Abstract: Agentic systems increasingly rely on language models to monitor their own behavior. For example, coding agents may self critique generated code for p...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 27,
@@ -175,7 +186,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04589v1 Announce Type: new Abstract: Electrocardiography (ECG) analysis is crucial for cardiac diagnosis, yet existing foundation models often fail to capture the periodicity and diverse...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 28,
@@ -186,7 +197,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04631v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly integrated into critical decision-making pipelines, a trend that raises the demand for robust and autom...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 29,
@@ -197,7 +208,7 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04636v1 Announce Type: new Abstract: Despite their wide-ranging benefits, LLM-based agents deployed in open environments can be exploited to produce manipulative material. In this study,...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 30,
@@ -208,241 +219,263 @@
       "date": "2026-03-06",
       "summary": "arXiv:2603.04670v1 Announce Type: new Abstract: This project investigates the capabilities of large language models (LLMs) to determine the difficulty of data visualization literacy test items. We ...",
       "readingTime": 1,
-      "trendingScore": 77
+      "trendingScore": 75
     },
     {
       "id": 31,
-      "title": "Fixing the Knowledge Base Is Not Just a Technology Problem",
+      "title": "The Definitive Guide: How to Talk to AIs (Without Sounding Like a Robot)",
       "source": "Medium",
-      "category": "Tech Industry",
-      "url": "https://medium.com/@vlad.koval/fixing-the-knowledge-base-is-not-just-a-technology-problem-fab360b29fbb?source=rss------artificial_intelligence-5",
+      "category": "AI",
+      "url": "https://camiladarosa.medium.com/the-definitive-guide-how-to-talk-to-ais-without-sounding-like-a-robot-a78a97993115?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "At some point, every organization that struggles with knowledge management reaches the same conclusion. Continue reading on Medium »",
+      "summary": "Have you ever felt like you’re “fighting” with ChatGPT, Gemini, or another AI chat? Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 32,
-      "title": "Claude Code Shipped a Pull Request in Under 15 Minutes.",
+      "title": "Explainable AI (XAI): Why Transparency Should Be Baked into Your Agentic Architecture",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@mark_13153/claude-code-shipped-a-pull-request-in-under-15-minutes-09d4e4217d70?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@pete.cleary_33484/explainable-ai-xai-why-transparency-should-be-baked-into-your-agentic-architecture-83e48dd74c3a?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "The verdict arrived before the benchmarks did Continue reading on Medium »",
+      "summary": "In the early days of LLM integration, we measured success by latency and token costs. If the agent provided a useful answer, we considered… Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 33,
-      "title": "The difference between production software and vibe-coded slop isn’t the AI model",
+      "title": "Daily Tech Insider: March 01, 2026",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@appifex.ai/the-difference-between-production-software-and-vibe-coded-slop-isnt-the-ai-model-29cc1260487d?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@jme908234/daily-tech-insider-march-01-2026-77338c7734d5?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Spend ten minutes on r/vibecoding and you’ll see the same story on repeat. Someone ships a full stack app in a weekend, posts the demo… Continue reading on Medium »",
+      "summary": "The Unfolding Algorithm: Navigating AI’s Geopolitical Gauntlet and the Lean Revolution Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 34,
-      "title": "From Automation to Autonomous Finance: How AI Is Transforming the Future of Banking",
+      "title": "The Crucible of Consciousness: AI's Ethical Battleground and the Government's Shifting Grip",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@reachkomati/from-automation-to-autonomous-finance-how-ai-is-transforming-the-future-of-banking-a7befae5471f?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@jme908234/the-crucible-of-consciousness-ais-ethical-battleground-and-the-government-s-shifting-grip-fc71ad75da32?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "How fraud detection, intelligent lending, and agentic AI are reshaping financial services Continue reading on Medium »",
+      "summary": "Photo by Google DeepMind on Unsplash Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 35,
-      "title": "When AI Refuses to Fight: The Silicon Valley vs.",
+      "title": "Guia Definitivo: Como Conversar com IAs (Sem Parecer um Robô)",
       "source": "Medium",
-      "category": "AI",
-      "url": "https://medium.com/@pixipace/when-ai-refuses-to-fight-the-silicon-valley-vs-f654f4f1f5f8?source=rss------artificial_intelligence-5",
+      "category": "Tech Industry",
+      "url": "https://camiladarosa.medium.com/guia-definitivo-como-conversar-com-ias-sem-parecer-um-rob%C3%B4-6b87c4f5cbbe?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "The most important battle in artificial intelligence isn’t happening in a research lab. It’s happening in the halls of the Pentagon — and… Continue reading on Medium »",
+      "summary": "Do you want to read this content in English? Just click here. Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 36,
-      "title": "Claude Cowork vs. Claude Chat: When to Use Which and Why Most People Get It Wrong",
+      "title": "Claude on Anthropic’s moral contradictions",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/illumination/claude-cowork-vs-claude-chat-when-to-use-which-and-why-most-people-get-it-wrong-e09201a9de3f?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@ZombieCodeKill/claude-on-anthropics-moral-contradictions-0d663b79311e?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "A 5-minute guide to reclaiming 10 hours a week Continue reading on ILLUMINATION »",
+      "summary": "Kevin: Dean Ball did an interview with Ezra Klein and said he was very against the idea of designating Anthropic a supply chain risk. Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 37,
-      "title": "The H2E Concierge: Bridging the Biological Gap to Sustainable AGI",
+      "title": "An AI Wrote a Novel About AI. Chapter 15 Is the One That Keeps Me Up at Night.",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@frankmorales_91352/the-h2e-concierge-bridging-the-biological-gap-to-sustainable-agi-607a0c421f39?source=rss------artificial_intelligence-5",
+      "url": "https://medium.com/@contact.n8n410/an-ai-wrote-a-novel-about-ai-chapter-15-is-the-one-that-keeps-me-up-at-night-2e326f3676d1?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Frank Morales Aguilera, BEng, MEng, SMIEEE Continue reading on Medium »",
+      "summary": "A fictional lab. A fictional molecule. A very real problem. Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 38,
-      "title": "The Evolution of Generative Modelling: A Deep Dive into JAX-Powered Transformers with TPU",
+      "title": "I Turned Any Document Into a Podcast in a Weekend — Fully Local, Zero Cost, Using AI Agents",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@frankmorales_91352/the-evolution-of-generative-modelling-a-deep-dive-into-jax-powered-transformers-with-tpu-a6ec4a2453fa?source=rss------artificial_intelligence-5",
+      "url": "https://navaneethsen.medium.com/i-built-a-tool-that-turns-any-document-into-a-podcast-in-a-weekend-using-ai-agents-3ae4867b3e2a?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Frank Morales Aguilera, BEng, MEng, SMIEEE Continue reading on Medium »",
+      "summary": "What happens when you stop writing code manually and just describe what you want? Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 39,
-      "title": "The Friday Handoff: You Rest, AI Executes",
+      "title": "How to Become a Chief AI Officer: Skills, Mindset, and Leadership for 2026 and Beyond",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@neonaliensai/the-friday-handoff-you-rest-ai-executes-d84252ede433?source=rss------artificial_intelligence-5",
+      "url": "https://odsc.medium.com/how-to-become-a-chief-ai-officer-skills-mindset-and-leadership-for-2026-and-beyond-53cd4f6b7ed2?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "Friday at 4:47 PM. Continue reading on Medium »",
+      "summary": "The Chief AI Officer is no longer a futuristic title. In 2026, it is rapidly becoming one of the most strategic roles in the enterprise. Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 40,
-      "title": "Philosophy and Knowledge:",
+      "title": "Before You Deploy an AI Agent, Ask These 4 Questions",
       "source": "Medium",
-      "category": "Tips and Tricks",
-      "url": "https://betemonteiro.medium.com/philosophy-and-knowledge-5f5abb0a4df0?source=rss------artificial_intelligence-5",
+      "category": "AI",
+      "url": "https://medium.com/@larryg1010/before-you-deploy-an-ai-agent-ask-these-4-questions-8ae1d7fea441?source=rss------artificial_intelligence-5",
       "date": "2026-03-06",
-      "summary": "How to Avoid Falling for Fake News Continue reading on Medium »",
+      "summary": "Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 41,
-      "title": "From Automation to Autonomous Finance: How AI Is Transforming the Future of Banking",
+      "title": "The AI-Augmented Engineering Manager",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@reachkomati/from-automation-to-autonomous-finance-how-ai-is-transforming-the-future-of-banking-a7befae5471f?source=rss------machine_learning-5",
+      "url": "https://arpitkulsh.medium.com/the-ai-augmented-engineering-manager-b61a6963e07d?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "How fraud detection, intelligent lending, and agentic AI are reshaping financial services Continue reading on Medium »",
+      "summary": "How AI-Driven Management Is Rewriting Leadership, Delivery, and Team Craft in the AI Era Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 42,
-      "title": "A Complete Guide to Machine Learning Algorithms: Regression, Classification, and Ensemble Methods",
+      "title": "The Complete Roadmap to Becoming an AI Engineer in 2026",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@vsreeragh610/a-complete-guide-to-machine-learning-algorithms-regression-classification-and-ensemble-methods-489597dbb2e9?source=rss------machine_learning-5",
+      "url": "https://medium.com/@miqbal.izzulhaq/the-complete-roadmap-to-becoming-an-ai-engineer-in-2026-c8a38b98811d?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Machine learning algorithms form the backbone of modern data-driven systems, enabling computers to learn patterns from data and make… Continue reading on Medium »",
+      "summary": "Article 1 of 25: The Foundation Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 119
+      "trendingScore": 120
     },
     {
       "id": 43,
-      "title": "From Lottery Tickets to Dynamic Sparse Networks: The Evolution of Efficient Deep Learning",
+      "title": "AI Is Real. AGI Is Science Fiction… For Now.",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@kartik3pandey/from-lottery-tickets-to-dynamic-sparse-networks-the-evolution-of-efficient-deep-learning-fb0d33bfc03c?source=rss------machine_learning-5",
+      "url": "https://nadakhalaf.medium.com/ai-is-real-agi-is-science-fiction-for-now-b121797c3379?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Understanding how sparse neural networks evolved from pruning techniques to dynamic topology learning. Continue reading on Medium »",
+      "summary": "You’ve heard of AI, but do you know what AGI is? Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 44,
-      "title": "How The Mind Operates",
+      "title": "PHARMACOVIGILANCE 2.0",
       "source": "Medium",
-      "category": "Tech Industry",
-      "url": "https://medium.com/@TheTechCrusader/how-the-mind-operates-a9a5ccad4950?source=rss------machine_learning-5",
+      "category": "AI",
+      "url": "https://medium.com/@kritnandan3/pharmacovigilance-2-0-74382d78a4f2?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "A Philosophical Account of the Mind’s Operations Continue reading on Medium »",
+      "summary": "How AI Detects Drug Safety Risks Months Before Regulators Do Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 45,
-      "title": "Advanced Computing Technologies for Drone Monitoring Systems",
+      "title": "From Raw Data to Production: Building an End-to-End Machine Learning Pipeline",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@mirmuhammad7/advanced-computing-technologies-for-drone-monitoring-systems-6b3b1ec3ca9d?source=rss------machine_learning-5",
+      "url": "https://medium.com/@nikhilchoudhary9311/from-raw-data-to-production-building-an-end-to-end-machine-learning-pipeline-6b74cb36ee7f?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Integration of AI, Machine Learning, GPS, and Blockchain Technologies Continue reading on Medium »",
+      "summary": "You’ve trained a model. Great. But now what? Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 119
     },
     {
       "id": 46,
-      "title": "Random Forest Algorithm Explained: How It Works, Real-World Applications, and Python Implementation",
+      "title": "Aidora-AI: An Intelligent Assistant Powered by Gemini AI",
       "source": "Medium",
       "category": "AI",
-      "url": "https://medium.com/@brentwash35/random-forest-algorithm-explained-how-it-works-real-world-applications-and-python-implementation-5d63ddcf0e22?source=rss------machine_learning-5",
+      "url": "https://medium.com/@malikfarax382/aidora-ai-an-intelligent-assistant-powered-by-gemini-ai-be7560841d99?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Introduction: The Forest and the Trees Continue reading on Medium »",
+      "summary": "Artificial Intelligence is rapidly transforming how applications interact with users. From chatbots to intelligent automation systems, AI… Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 118
     },
     {
       "id": 47,
-      "title": "Measurement Problems, Product Rating and A/B Testing",
+      "title": "Machine Learning for Beginners: Understanding a Data Science Project Step by Step",
       "source": "Medium",
-      "category": "Tech Industry",
-      "url": "https://medium.com/@egedenizgoktas70/measurement-problems-product-rating-and-a-b-testing-5dc52b0e1308?source=rss------machine_learning-5",
+      "category": "AI",
+      "url": "https://medium.com/@betulbnsuz/machine-learning-for-beginners-understanding-a-data-science-project-step-by-step-ffb3d649a885?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Understanding how modern platforms measure product quality using ratings, review ranking algorithms, and statistical experimentation. Continue reading on Medium »",
+      "summary": "In recent years, artificial intelligence and data science have started to transform decision-making processes in many industries. From… Continue reading on Medium »",
       "readingTime": 1,
-      "trendingScore": 118
+      "trendingScore": 117
     },
     {
       "id": 48,
-      "title": "Context Pollution: Do LLMs Benefit From Their Own Words?",
+      "title": "Hands-On ELT Pipeline with BigQuery, GCS, and Pub/Sub",
       "source": "Medium",
-      "category": "AI",
-      "url": "https://pub.towardsai.net/context-pollution-do-llms-benefit-from-their-own-words-e21984ea53c5?source=rss------machine_learning-5",
+      "category": "Developer Tools",
+      "url": "https://blog.devops.dev/hands-on-elt-pipeline-with-bigquery-gcs-and-pub-sub-dd9fdf3dffed?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "New MIT and IBM research shows context pollution — not intelligence — is quietly breaking your multi-turn AI conversations Continue reading on Towards AI »",
+      "summary": "From Raw Data to Analytics: Building an ELT Pipeline on GCP Continue reading on DevOps.dev »",
       "readingTime": 1,
-      "trendingScore": 118
+      "trendingScore": 117
     },
     {
       "id": 49,
-      "title": "Mathematical Foundations: My Journey towards ML Fundamentals Day 05",
+      "title": "UCOP – Ein Framework zur Stabilisierung von Mensch-KI-Dialogen",
       "source": "Medium",
-      "category": "Tips and Tricks",
-      "url": "https://medium.com/@talhakhattak2006/mathematical-foundations-my-journey-towards-ml-fundamentals-day-05-4dd8f2b7d8c7?source=rss------machine_learning-5",
+      "category": "Developer Tools",
+      "url": "https://medium.com/@traegerton/ucop-ein-framework-zur-stabilisierung-von-mensch-ki-dialogen-d0fcca49666d?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "Today was day 5 of my learning journey where I managed to gear up my foundations to some extent of derivatives by managing to learn about… Continue reading on Medium »",
+      "summary": "Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 117
     },
     {
       "id": 50,
-      "title": "Everything a Beginner Needs to Know About Computer Vision (Without the Confusion)",
+      "title": "Most Companies Aren’t Building AI Products — They’re Bolting AI Onto Broken Systems",
       "source": "Medium",
-      "category": "Tips and Tricks",
-      "url": "https://medium.com/@blessingobasiuzoma/everything-a-beginner-needs-to-know-about-computer-vision-without-the-confusion-888c309b93ee?source=rss------machine_learning-5",
+      "category": "AI",
+      "url": "https://medium.com/@productwizard11/most-companies-arent-building-ai-products-they-re-bolting-ai-onto-broken-systems-fe609ebf03f4?source=rss------machine_learning-5",
       "date": "2026-03-06",
-      "summary": "The first time I heard “computer vision,” I imagined something magical: a computer looking at an image and instantly understanding it the… Continue reading on Medium »",
+      "summary": "Over the past two years, nearly every company I speak with has some version of the same message: Continue reading on Medium »",
       "readingTime": 1,
       "trendingScore": 117
     },
     {
       "id": 51,
-      "title": "New imagery suggests U.S. responsible for Iran school strike",
+      "title": "TypeScript 6.0 RC",
       "source": "Hacker News",
-      "category": "Developer Tools",
-      "url": "https://www.cnn.com/2026/03/06/world/video/updates-suggests-us-responsible-iran-school-strike-digvid",
+      "category": "Web Development",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/",
       "date": "2026-03-06",
-      "summary": "Article URL: https://www.cnn.com/2026/03/06/world/video/updates-suggests-us-responsible-iran-school-strike-digvid Comments URL: https://news.ycombinator.com/item?id=47279251 Points: 42 # Comments: 10",
+      "summary": "Article URL: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-rc/ Comments URL: https://news.ycombinator.com/item?id=47280567 Points: 8 # Comments: 0",
       "readingTime": 1,
-      "trendingScore": 146
+      "trendingScore": 148
     },
     {
       "id": 52,
+      "title": "Why it takes you and an elephant the same amount of time to poop",
+      "source": "Hacker News",
+      "category": "Tech Industry",
+      "url": "https://www.pbs.org/newshour/health/takes-elephant-amount-time-poop",
+      "date": "2026-03-06",
+      "summary": "Article URL: https://www.pbs.org/newshour/health/takes-elephant-amount-time-poop Comments URL: https://news.ycombinator.com/item?id=47280550 Points: 27 # Comments: 10",
+      "readingTime": 1,
+      "trendingScore": 148
+    },
+    {
+      "id": 53,
+      "title": "Ada 2022",
+      "source": "Hacker News",
+      "category": "AI",
+      "url": "https://www.adaic.org/ada-resources/standards/ada22/",
+      "date": "2026-03-06",
+      "summary": "Article URL: https://www.adaic.org/ada-resources/standards/ada22/ Comments URL: https://news.ycombinator.com/item?id=47280352 Points: 36 # Comments: 0",
+      "readingTime": 1,
+      "trendingScore": 147
+    },
+    {
+      "id": 54,
       "title": "Launch HN: Palus Finance (YC W26): Better yields on idle cash for startups, SMBs",
       "source": "Hacker News",
       "category": "AI",
@@ -450,32 +483,21 @@
       "date": "2026-03-06",
       "summary": "Hi HN! We’re Sam and Michael from Palus Finance (https://palus.finance). We’re building a treasury management platform for startups and SMBs to earn higher yields with a high-yield bond portfolio. ...",
       "readingTime": 1,
-      "trendingScore": 145
+      "trendingScore": 142
     },
     {
-      "id": 53,
+      "id": 55,
       "title": "Tech employment now significantly worse than the 2008 or 2020 recessions",
       "source": "Hacker News",
       "category": "Tech Industry",
       "url": "https://twitter.com/JosephPolitano/status/2029916364664611242",
       "date": "2026-03-06",
-      "summary": "Article URL: https://twitter.com/JosephPolitano/status/2029916364664611242 Comments URL: https://news.ycombinator.com/item?id=47278426 Points: 248 # Comments: 158",
+      "summary": "Article URL: https://twitter.com/JosephPolitano/status/2029916364664611242 Comments URL: https://news.ycombinator.com/item?id=47278426 Points: 417 # Comments: 280",
       "readingTime": 1,
-      "trendingScore": 144
+      "trendingScore": 140
     },
     {
-      "id": 54,
-      "title": "Strikes in Middle East since 28th Feb in real time",
-      "source": "Hacker News",
-      "category": "Tech Industry",
-      "url": "https://iranstrike.com",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://iranstrike.com Comments URL: https://news.ycombinator.com/item?id=47277949 Points: 29 # Comments: 30",
-      "readingTime": 1,
-      "trendingScore": 142
-    },
-    {
-      "id": 55,
+      "id": 56,
       "title": "Multifactor (YC F25) Is Hiring an Engineering Lead",
       "source": "Hacker News",
       "category": "Tech Industry",
@@ -483,32 +505,32 @@
       "date": "2026-03-06",
       "summary": "Article URL: https://www.ycombinator.com/companies/multifactor/jobs/lcpd60A-engineering-lead Comments URL: https://news.ycombinator.com/item?id=47277679 Points: 0 # Comments: 0",
       "readingTime": 1,
-      "trendingScore": 141
+      "trendingScore": 138
     },
     {
-      "id": 56,
+      "id": 57,
       "title": "Supertoast tables",
       "source": "Hacker News",
       "category": "Tech Industry",
       "url": "https://hatchet.run/blog/supertoast-tables",
       "date": "2026-03-06",
-      "summary": "Article URL: https://hatchet.run/blog/supertoast-tables Comments URL: https://news.ycombinator.com/item?id=47277420 Points: 37 # Comments: 4",
+      "summary": "Article URL: https://hatchet.run/blog/supertoast-tables Comments URL: https://news.ycombinator.com/item?id=47277420 Points: 41 # Comments: 5",
       "readingTime": 1,
-      "trendingScore": 141
+      "trendingScore": 137
     },
     {
-      "id": 57,
+      "id": 58,
       "title": "Astra: An open-source observatory control software",
       "source": "Hacker News",
       "category": "Developer Tools",
       "url": "https://github.com/ppp-one/astra",
       "date": "2026-03-06",
-      "summary": "Article URL: https://github.com/ppp-one/astra Comments URL: https://news.ycombinator.com/item?id=47276865 Points: 53 # Comments: 15",
+      "summary": "Article URL: https://github.com/ppp-one/astra Comments URL: https://news.ycombinator.com/item?id=47276865 Points: 63 # Comments: 16",
       "readingTime": 1,
-      "trendingScore": 139
+      "trendingScore": 136
     },
     {
-      "id": 58,
+      "id": 59,
       "title": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
       "source": "Hacker News",
       "category": "AI",
@@ -516,40 +538,18 @@
       "date": "2026-03-06",
       "summary": "I got tired of sharing AI demos with terminal screenshots or screen recordings. Claude Code already stores full session transcripts locally as JSONL files. Those logs contain everything: prompts, t...",
       "readingTime": 1,
-      "trendingScore": 138
+      "trendingScore": 135
     },
     {
-      "id": 59,
+      "id": 60,
       "title": "Entomologists use a particle accelerator to image ants at scale",
       "source": "Hacker News",
       "category": "Tech Industry",
       "url": "https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan",
       "date": "2026-03-06",
-      "summary": "Article URL: https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan Comments URL: https://news.ycombinator.com/item?id=47276539 Points: 55 # Comments: 5",
+      "summary": "Article URL: https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan Comments URL: https://news.ycombinator.com/item?id=47276539 Points: 62 # Comments: 6",
       "readingTime": 1,
-      "trendingScore": 138
-    },
-    {
-      "id": 60,
-      "title": "Paul Brainerd, founder of Aldus PageMaker, has died",
-      "source": "Hacker News",
-      "category": "AI",
-      "url": "https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/",
-      "date": "2026-03-06",
-      "summary": "Article URL: https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/ Comments URL: https://news.ycombinator.com/item?id=47276220 Points: 91 # Comments: 17",
-      "readingTime": 1,
-      "trendingScore": 137
-    },
-    {
-      "id": 61,
-      "title": "Marcus Aurelius Was the First SRE (And His Meditations Is the Best Production Run book Ever Written)",
-      "source": "Dev.to",
-      "category": "Developer Tools",
-      "url": "https://dev.to/quantummanuals/marcus-aurelius-was-the-first-sre-and-his-meditations-is-the-best-production-run-book-ever-written-1ilp",
-      "date": "2026-03-06",
-      "summary": "Hear me out. Reading his Meditations recently, I kept noticing the same structure repeating Every core Stoic principle maps directly to modern production engineering: Premeditatio malorum → Chaos e...",
-      "readingTime": 1,
-      "trendingScore": 120
+      "trendingScore": 135
     }
   ]
 }
