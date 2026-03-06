@@ -23,7 +23,7 @@ const formattedDate = new Date(article.date).toLocaleDateString('en-US', {
 });
 ---
 
-<article class={`news-card ${isTrending ? 'trending' : ''}`} data-category={article.category} data-link={article.link}>
+<article class={`news-card ${isTrending ? 'trending' : ''}`} data-category={article.category} data-link={article.link} data-date={article.date}>
   <div class="card-header">
     <div class="card-badges">
       <span class={`category ${categoryClass}`}>{article.category}</span>
@@ -35,11 +35,11 @@ const formattedDate = new Date(article.date).toLocaleDateString('en-US', {
       </svg>
     </button>
   </div>
-  
+
   <h2><a href={article.link} target="_blank" rel="noopener">{article.title}</a></h2>
-  
+
   {article.summary && <p class="summary">{article.summary}</p>}
-  
+
   <div class="card-footer">
     <div class="meta">
       <span class="source">{article.source}</span>

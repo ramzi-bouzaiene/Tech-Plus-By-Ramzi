@@ -64,7 +64,10 @@ const mappedArticles = articles.map((a: any) => ({
     <div class="meta-bar">
       <span class="last-updated">Updated: {formattedDate}</span>
       <div class="filters">
-        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn active" data-filter="latest">
+          <span class="filter-text">Latest</span>
+          <span class="filter-badge daily">24h</span>
+        </button>
         <button class="filter-btn" data-filter="AI">AI</button>
         <button class="filter-btn" data-filter="Developer Tools">Dev Tools</button>
         <button class="filter-btn" data-filter="Web Development">Web Dev</button>
@@ -115,7 +118,7 @@ const mappedArticles = articles.map((a: any) => ({
 <script>
   // State
   let bookmarks: string[] = JSON.parse(localStorage.getItem('bookmarks') || '[]');
-  let currentFilter = 'all';
+  let currentFilter = 'latest';
   let searchQuery = '';
 
   // Pagination state
@@ -151,15 +154,29 @@ const mappedArticles = articles.map((a: any) => ({
     const cards = document.querySelectorAll('.news-card') as NodeListOf<HTMLElement>;
     filteredCards = [];
 
+    // Get today's date for "Latest" filter (last 24 hours)
+    const now = new Date();
+    const oneDayAgo = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+
     cards.forEach(card => {
       const category = card.getAttribute('data-category') || '';
       const link = card.getAttribute('data-link') || '';
+      const articleDate = new Date(card.getAttribute('data-date') || '');
       const title = card.querySelector('h2')?.textContent?.toLowerCase() || '';
       const summary = card.querySelector('.summary')?.textContent?.toLowerCase() || '';
       const source = card.querySelector('.source')?.textContent?.toLowerCase() || '';
 
-      const matchesFilter = currentFilter === 'all' ||
-        (currentFilter === 'bookmarked' ? bookmarks.includes(link) : category === currentFilter);
+      // Latest: show articles from last 24 hours
+      // Categories: show all articles (weekly accumulated)
+      // Bookmarked: show bookmarked articles
+      let matchesFilter = false;
+      if (currentFilter === 'latest') {
+        matchesFilter = articleDate >= oneDayAgo;
+      } else if (currentFilter === 'bookmarked') {
+        matchesFilter = bookmarks.includes(link);
+      } else {
+        matchesFilter = category === currentFilter;
+      }
 
       const matchesSearch = searchQuery === '' ||
         title.includes(searchQuery) ||
@@ -179,9 +196,13 @@ const mappedArticles = articles.map((a: any) => ({
     if (filteredCards.length === 0 && newsGrid) {
       const noResults = document.createElement('div');
       noResults.className = 'no-results';
-      noResults.textContent = currentFilter === 'bookmarked'
-        ? 'No bookmarked articles yet'
-        : 'No articles found';
+      if (currentFilter === 'bookmarked') {
+        noResults.textContent = 'No bookmarked articles yet';
+      } else if (currentFilter === 'latest') {
+        noResults.textContent = 'No articles from the last 24 hours';
+      } else {
+        noResults.textContent = 'No articles found in this category';
+      }
       newsGrid.appendChild(noResults);
     }
 
