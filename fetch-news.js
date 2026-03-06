@@ -348,8 +348,22 @@ function categorize(title, content = '') {
 
 function extractSummary(item) {
   let content = item.contentSnippet || item.content || item['content:encoded'] || '';
-  // Clean and truncate
   content = content.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+
+  if (content.match(/^(Article URL:|Comments URL:|https?:\/\/)/i) ||
+      content.match(/^https?:\/\/\S+\s*(Comments URL:|Points:)/i)) {
+    return '';
+  }
+
+  content = content.replace(/Article URL:\s*https?:\/\/\S+/gi, '');
+  content = content.replace(/Comments URL:\s*https?:\/\/\S+/gi, '');
+  content = content.replace(/Points:\s*\d+\s*#\s*Comments:\s*\d+/gi, '');
+  content = content.trim();
+
+  if (content.length < 20 || content.match(/^https?:\/\//)) {
+    return '';
+  }
+
   return content.length > 200 ? content.slice(0, 197) + '...' : content;
 }
 
