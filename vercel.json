@@ -1,18 +1,12 @@
 {
-  "buildCommand": null,
-  "outputDirectory": "public",
-  "framework": null,
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-      ]
-    },
-    {
-      "source": "/news-data.json",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=300" }
       ]
     }
   ]

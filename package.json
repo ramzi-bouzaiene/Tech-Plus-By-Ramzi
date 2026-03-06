@@ -1,15 +1,16 @@
 {
-  "name": "tech-news-site",
+  "name": "tech-plus-news",
+  "type": "module",
   "version": "1.0.0",
   "description": "Minimal news site for AI, developer tools, and tech industry news",
-  "main": "fetch-news.js",
   "scripts": {
-    "start": "npx serve public",
-    "fetch": "node fetch-news.js && cp news-data.json public/news-data.json",
-    "build": "node fetch-news.js && cp news-data.json public/news-data.json",
-    "dev": "npx serve public"
+    "dev": "astro dev",
+    "build": "node fetch-news.js && astro build",
+    "preview": "astro preview",
+    "fetch": "node fetch-news.js"
   },
   "dependencies": {
+    "astro": "^4.5.0",
     "rss-parser": "^3.13.0"
   }
 }

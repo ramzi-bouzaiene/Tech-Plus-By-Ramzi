@@ -1,0 +1,237 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsCard from '../components/NewsCard.astro';
+import fs from 'fs';
+import path from 'path';
+
+// Read news data at build time
+const newsDataPath = path.join(process.cwd(), 'news-data.json');
+let newsData = { lastUpdated: new Date().toISOString(), articles: [] };
+
+try {
+  const rawData = fs.readFileSync(newsDataPath, 'utf-8');
+  newsData = JSON.parse(rawData);
+} catch (e) {
+  console.error('Could not read news data:', e);
+}
+
+const { lastUpdated, articles } = newsData;
+const formattedDate = new Date(lastUpdated).toLocaleDateString('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  hour: '2-digit',
+  minute: '2-digit'
+});
+
+// Map articles for proper link field
+const mappedArticles = articles.map((a: any) => ({
+  ...a,
+  link: a.url || a.link
+}));
+---
+
+<Layout title="Tech Plus By Ramzi - AI, Dev Tools & Tech News">
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div>
+          <h1>Tech Plus By Ramzi</h1>
+          <p class="tagline">AI, Developer Tools & Tech Industry News</p>
+        </div>
+        <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+          <svg class="icon-sun" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"></circle>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+          </svg>
+          <svg class="icon-moon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="search-bar">
+        <svg class="search-icon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="M21 21l-4.35-4.35"></path>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search articles...">
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="meta-bar">
+      <span class="last-updated">Updated: {formattedDate}</span>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="AI">AI</button>
+        <button class="filter-btn" data-filter="Developer Tools">Dev Tools</button>
+        <button class="filter-btn" data-filter="Web Development">Web Dev</button>
+        <button class="filter-btn" data-filter="Tech Industry">Industry</button>
+        <button class="filter-btn bookmark-filter" data-filter="bookmarked">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+          </svg>
+          Saved
+        </button>
+      </div>
+    </div>
+
+    <div class="news-grid" id="newsGrid">
+      {mappedArticles.map((article: any) => (
+        <NewsCard article={article} />
+      ))}
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Tech Plus By Ramzi • Auto-updated daily at 6 AM UTC</p>
+    </div>
+  </footer>
+</Layout>
+
+<script>
+  // State
+  let bookmarks: string[] = JSON.parse(localStorage.getItem('bookmarks') || '[]');
+  let currentFilter = 'all';
+  let searchQuery = '';
+
+  // DOM Elements
+  const themeToggle = document.getElementById('themeToggle');
+  const searchInput = document.getElementById('searchInput') as HTMLInputElement;
+  const newsGrid = document.getElementById('newsGrid');
+  const filterBtns = document.querySelectorAll('.filter-btn');
+
+  // Initialize bookmarks UI
+  function updateBookmarksUI() {
+    document.querySelectorAll('.bookmark-btn').forEach(btn => {
+      const link = btn.getAttribute('data-link');
+      if (link && bookmarks.includes(link)) {
+        btn.classList.add('bookmarked');
+      } else {
+        btn.classList.remove('bookmarked');
+      }
+    });
+  }
+
+  // Filter and search
+  function filterNews() {
+    const cards = document.querySelectorAll('.news-card') as NodeListOf<HTMLElement>;
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const category = card.getAttribute('data-category') || '';
+      const link = card.getAttribute('data-link') || '';
+      const title = card.querySelector('h2')?.textContent?.toLowerCase() || '';
+      const summary = card.querySelector('.summary')?.textContent?.toLowerCase() || '';
+      const source = card.querySelector('.source')?.textContent?.toLowerCase() || '';
+
+      const matchesFilter = currentFilter === 'all' || 
+        (currentFilter === 'bookmarked' ? bookmarks.includes(link) : category === currentFilter);
+      
+      const matchesSearch = searchQuery === '' || 
+        title.includes(searchQuery) || 
+        summary.includes(searchQuery) || 
+        source.includes(searchQuery);
+
+      if (matchesFilter && matchesSearch) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Show no results message
+    const existingNoResults = document.querySelector('.no-results');
+    if (existingNoResults) existingNoResults.remove();
+
+    if (visibleCount === 0 && newsGrid) {
+      const noResults = document.createElement('div');
+      noResults.className = 'no-results';
+      noResults.textContent = currentFilter === 'bookmarked' 
+        ? 'No bookmarked articles yet' 
+        : 'No articles found';
+      newsGrid.appendChild(noResults);
+    }
+  }
+
+  // Theme toggle
+  themeToggle?.addEventListener('click', () => {
+    const html = document.documentElement;
+    const current = html.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+
+  // Search
+  searchInput?.addEventListener('input', (e) => {
+    searchQuery = (e.target as HTMLInputElement).value.toLowerCase();
+    filterNews();
+  });
+
+  // Filter buttons
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter = btn.getAttribute('data-filter') || 'all';
+      filterNews();
+    });
+  });
+
+  // Bookmark buttons
+  document.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const link = btn.getAttribute('data-link');
+      if (!link) return;
+
+      if (bookmarks.includes(link)) {
+        bookmarks = bookmarks.filter(b => b !== link);
+        btn.classList.remove('bookmarked');
+      } else {
+        bookmarks.push(link);
+        btn.classList.add('bookmarked');
+      }
+      localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+      
+      if (currentFilter === 'bookmarked') {
+        filterNews();
+      }
+    });
+  });
+
+  // Share buttons
+  document.querySelectorAll('.twitter-share').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const url = btn.getAttribute('data-url');
+      const title = btn.getAttribute('data-title');
+      window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(url || '')}&text=${encodeURIComponent(title || '')}`, '_blank');
+    });
+  });
+
+  document.querySelectorAll('.linkedin-share').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const url = btn.getAttribute('data-url');
+      window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url || '')}`, '_blank');
+    });
+  });
+
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const url = btn.getAttribute('data-url');
+      if (url) {
+        await navigator.clipboard.writeText(url);
+        const original = btn.textContent;
+        btn.textContent = '✓ Copied!';
+        setTimeout(() => btn.textContent = original, 2000);
+      }
+    });
+  });
+
+  // Initialize
+  updateBookmarksUI();
+</script>

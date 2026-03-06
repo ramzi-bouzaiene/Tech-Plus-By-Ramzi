@@ -146,12 +146,9 @@ async function fetchAllNews() {
     articles: finalArticles
   };
 
-  // Save to both root and public folder
+  // Save to root folder (Astro reads from here at build time)
   const outputPath = path.join(__dirname, 'news-data.json');
-  const publicPath = path.join(__dirname, 'public', 'news-data.json');
-
   fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
-  fs.writeFileSync(publicPath, JSON.stringify(data, null, 2));
 
   console.log(`\n✨ Saved ${finalArticles.length} articles to news-data.json`);
   console.log(`📅 Last updated: ${data.lastUpdated}`);
